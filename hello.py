@@ -1,1 +1,2 @@
-print('Hello, Khadija Naushad, I Love You')
+name = "Altamash Ahmad"
+print("Hello, My name is " + name)
