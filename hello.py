@@ -5,5 +5,5 @@ def calc():
     total = a + b
     print(f"The sum is: {total}")
 
-calc()
+calc();
 
