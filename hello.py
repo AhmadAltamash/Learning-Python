@@ -1,15 +1,11 @@
-def calc():
-    a = int(input("Enter the first number: "))
-    b = int(input("Enter the second number: "))
-    
-    total = a + b
-    print(f"The sum is: {total}")
-    total = a - b
-    print(f"The sub is: {total}")
-    total = a * b
-    print(f"The prod is: {total}")
-    total = a / b
-    print(f"The quo is: {total}")
-
-calc();
-
+def var():
+    fname = input("Enter your first name: ")
+    lname = input("Enter your last name: ")
+    print(fname + " " + lname)
+    age = int(input("Enter your age: "))
+    if fname == "Altamash" & age >= 18:
+        print("You are Welcome")
+    else:
+        print("Simon Go Back")
+var()
+        
