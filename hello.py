@@ -3,7 +3,7 @@ def var():
     lname = input("Enter your last name: ")
     print(fname + " " + lname)
     age = int(input("Enter your age: "))
-    if fname == "Altamash" and age >= 18:
+    if fname == "Altamash" and lname == "Ahmad" and age >= 18:
         print("You are Welcome")
     else:
         print("Simon Go Back")
