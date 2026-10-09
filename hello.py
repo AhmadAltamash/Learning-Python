@@ -4,8 +4,8 @@ def var():
     print(fname + " " + lname)
     age = int(input("Enter your age: "))
     if fname == "Altamash" and lname == "Ahmad" and age >= 18:
-        print("You are Welcome")
+        print(fname + " " + lname + ", " + "You are Welcome")
     else:
-        print("Simon Go Back")
+        print(fname + " " + lname + ", " + "Simon Go Back")
 var()
         
