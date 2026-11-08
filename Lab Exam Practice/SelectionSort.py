@@ -1,7 +1,7 @@
 def select_sort(arr):
     n = len(arr)
     for i in range(n):
-        min_ind = i
+        min_ind = j
         for j in range(i+1, n):
             if arr[j] < arr[min_ind]:
                 min_ind = j
